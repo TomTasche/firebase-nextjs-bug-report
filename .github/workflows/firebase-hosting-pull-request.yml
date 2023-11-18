@@ -15,3 +15,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIRACL_WEBSITE_VARIANT }}'
           projectId: miracl-website-variant
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
